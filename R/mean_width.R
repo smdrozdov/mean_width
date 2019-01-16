@@ -77,15 +77,9 @@ MeanWidth <- function(A, sample.size){
   return(mean.width)
 }
 
-# TODO(smdrozdov): Find out real constant here. Factor can be computed if put a complete sphere instead of simplex.
+# TODO(smdrozdov): Find out real constant here. Compute for diameter of S^n.
 Factor <- function(dimension){
-  if (dimension == 2){
-    return(2 * sqrt(2 * pi))
-  }
-  if (dimension == 3){
-    return(2 * sqrt(2 * pi))
-  }
-  return(1)
+  return(2 * sqrt(2 * pi))
 }
 
 TestAll <- function(){
