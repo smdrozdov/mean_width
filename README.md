@@ -10,7 +10,7 @@ It is quite obvious, that these are extreme values of E(max(A, B)), moreover it 
 
 But what if there are more than two correlated normal random variables? Thus, what is E(max(X_1,...X_n)) if covariance matrix of X_1,...X_n is known.
 
-# Mean width.
+# Mean width of simplex.
 
 Given a simplex in R^n compute it's average width. If n = 2, and, thus, simplex is a triangle, it's mean width is triangle's perimeter up to a coefficient $2 * \sqrt(2 * pi)$.
 
