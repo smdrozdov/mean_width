@@ -8,7 +8,7 @@ If r = -1, A = - B and E(max(A, B)) = E(|A|) = sqrt(2 / pi).
 
 It is quite obvious, that these are extreme values of E(max(A, B)), moreover it can be shown that E(max(A, B)) =  sqrt((1 - r) / pi).
 
-But what if there are more than two correlated normal random variables?
+But what if there are more than two correlated normal random variables? Thus, what is E(max(X_1,...X_n)) if covariance matrix of X_1,...X_n is known.
 
 # Mean width.
 
