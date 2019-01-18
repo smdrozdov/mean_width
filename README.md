@@ -14,7 +14,7 @@ But what if there are more than two correlated normal random variables? Thus, wh
 
 Given a simplex in R^n compute it's average width. If n = 2, and, thus, simplex is a triangle, it's mean width is triangle's perimeter up to a coefficient $2 * \sqrt(2 * pi)$.
 
-If n >= 3 no closed-form solution exists. Known method is called Sudakov's Theorem and states that
+If n >= 3 no closed-form solution exists. Known method is proposed by Sudakov and states that:
 
 If rows of covariance matrix of X_1,..X_n represent coordinates of simplex' vertices it's mean width equals E(max(X_1,...X_n)) up to a coefficient depending on n.
 
