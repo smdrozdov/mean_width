@@ -20,4 +20,5 @@ If rows of covariance matrix of X_1,..X_n represent coordinates of simplex' vert
 
 The repository implements this method.
 
-References:
+References: [1] V. Sudakov. Geometric problems in the theory of infinite-dimensional probability distributions. Trudy Mat. Inst. Steklov, 141(4):3–191, 1976. English
+translation: AMS
