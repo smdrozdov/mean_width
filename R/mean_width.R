@@ -1,3 +1,6 @@
+# TODO(smdrozdov): Compute V_2, average R2 projection of simplex. It requires convex hull computation,
+#                  which is O(d * log d). First interesting case is 4-simplex with 5
+#                  vertices, so computing convex hull of pentagon.
 # Returns true if points lie on the unit sphere.
 # Args:
 #   A: matrix, not necessarily representing simplex.
